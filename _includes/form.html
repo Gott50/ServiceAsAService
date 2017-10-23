@@ -1,52 +1,37 @@
-<form method="post"
-      action-xhr={{ site.static_email }}
-      custom-validation-reporting="show-all-on-submit"
-      target="_blank">
-    <fieldset>
-        <label>
-            <span>Name:</span>
-            <input type="text"
-                   name="name"
-                   id="name5"
-                   required
-                   pattern="\w+\s\w+">
-            <span visible-when-invalid="valueMissing"
-                  validation-for="name5"></span>
-            <span visible-when-invalid="patternMismatch"
-                  validation-for="name5">
-                      Please enter your first and last name separated by a space (e.g. Jane Miller)
-                    </span>
-        </label>
-        <br>
-        <label>
-            <span>Email:</span>
-            <input type="email"
-                   name="email"
-                   id="email5"
-                   required>
-            <span visible-when-invalid="valueMissing"
-                  validation-for="email5"></span>
-            <span visible-when-invalid="typeMismatch"
-                  validation-for="email5"></span>
-        </label>
-        <br>
-        <label>
-            <span>Message:</span>
-            <textarea rows="5"
-                      name="message"
-                      id="message5"
-                      required></textarea>
-            <span visible-when-invalid="valueMissing"
-                  validation-for="message5"></span>
-        </label>
-        <br>
-        <input type="submit"
-               value="Send">
-    </fieldset>
-    <div submit-success>
-        Thank you. We received our Message.
-    </div>
-    <div submit-error>
-        Thank you for your Message.
-    </div>
-</form>
+<!-- Begin MailChimp Signup Form -->
+<div id="mc_embed_signup">
+    <form action="https://fotografie-mal-anders.us17.list-manage.com/subscribe/post?u=c4094d7a8db874e7b42201ad0&amp;id=4deebc963e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div id="mc_embed_signup_scroll">
+            <h2>Subscribe to our mailing list</h2>
+            <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+            <div class="mc-field-group">
+                <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+                </label>
+                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+            </div>
+            <div class="mc-field-group">
+                <label for="mce-FNAME">First Name </label>
+                <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+            </div>
+            <div class="mc-field-group">
+                <label for="mce-LNAME">Last Name </label>
+                <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+            </div>
+            <div class="mc-field-group size1of2">
+                <label for="mce-BIRTHDAY-month">Birthday </label>
+                <div class="datefield">
+                    <span class="subfield monthfield"><input class="birthday " type="text" pattern="[0-9]*" value="" placeholder="MM" size="2" maxlength="2" name="BIRTHDAY[month]" id="mce-BIRTHDAY-month"></span> /
+                    <span class="subfield dayfield"><input class="birthday " type="text" pattern="[0-9]*" value="" placeholder="DD" size="2" maxlength="2" name="BIRTHDAY[day]" id="mce-BIRTHDAY-day"></span>
+                    <span class="small-meta nowrap">( mm / dd )</span>
+                </div>
+            </div>	<div id="mce-responses" class="clear">
+            <div class="response" id="mce-error-response"></div>
+            <div class="response" id="mce-success-response"></div>
+        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div aria-hidden="true"><input type="text" name="b_c4094d7a8db874e7b42201ad0_4deebc963e" tabindex="-1" value=""></div>
+            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+        </div>
+    </form>
+</div>
+
+<!--End mc_embed_signup-->
