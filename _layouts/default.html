@@ -6,8 +6,8 @@
 
     {{ content }}
 
-    {% comment %}
+    {% if site.analytics_id%}
         {% include analytics.html %}
-    {% endcomment %}
+    {% endif %}
   </body>
 </html>
