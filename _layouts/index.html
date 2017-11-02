@@ -27,16 +27,17 @@ amp-iframe: true
       </article>
     {% endfor %}
 
-    {{content}}
+    <div class="row">
+      {{content}}
 
-    <amp-iframe width="auto" height="918"
-                sandbox="allow-scripts allow-same-origin allow-forms"
-                layout="fixed-height"
-                frameborder="0"
-                src="https://eepurl.com/c8EbXb">
-      <amp-img placeholder width="600" height="300" layout="responsive" src="/assets/images/logo.jpg"></amp-img>
-    </amp-iframe>
-
+      <amp-iframe width="auto" height="918"
+                  sandbox="allow-scripts allow-same-origin allow-forms"
+                  layout="fixed-height"
+                  frameborder="0"
+                  src="https://eepurl.com/c8EbXb">
+        <amp-img placeholder width="600" height="300" layout="responsive" src="/assets/images/logo.jpg"></amp-img>
+      </amp-iframe>
+    </div>
   </div>
 
   <nav class="pagination" role="navigation">
