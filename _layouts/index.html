@@ -11,6 +11,18 @@ amp-iframe: true
   </header>
 
   <div class="cf frame">
+    <div class="row">
+      {{content}}
+
+      <amp-iframe width="auto" height="918"
+                  sandbox="allow-scripts allow-same-origin allow-forms"
+                  layout="fixed-height"
+                  frameborder="0"
+                  src="https://eepurl.com/c8EbXb">
+        <amp-img placeholder width="600" height="300" layout="responsive" src="/assets/images/logo.jpg"></amp-img>
+      </amp-iframe>
+    </div>
+
     {% for post in paginator.posts %}
       <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
         <div class="article-item">
@@ -26,18 +38,6 @@ amp-iframe: true
         </div>
       </article>
     {% endfor %}
-
-    <div class="row">
-      {{content}}
-
-      <amp-iframe width="auto" height="918"
-                  sandbox="allow-scripts allow-same-origin allow-forms"
-                  layout="fixed-height"
-                  frameborder="0"
-                  src="https://eepurl.com/c8EbXb">
-        <amp-img placeholder width="600" height="300" layout="responsive" src="/assets/images/logo.jpg"></amp-img>
-      </amp-iframe>
-    </div>
   </div>
 
   <nav class="pagination" role="navigation">
