@@ -1,4 +1,5 @@
 ---
 layout: index
-amp-youtube: true
 ---
+
+Content
