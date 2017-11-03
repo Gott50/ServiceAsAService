@@ -27,3 +27,10 @@ kramdown:
 
 gems:
   - jekyll-paginate
+
+
+# Collections
+collections:
+  testimonials:
+    output: true
+    permalink: /:collection/:title/
