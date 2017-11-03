@@ -35,3 +35,8 @@ collections:
   testimonials:
     output: true
     permalink: /:collection/:title/
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
