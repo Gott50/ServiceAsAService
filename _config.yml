@@ -35,6 +35,9 @@ collections:
   testimonials:
     output: true
     permalink: /:collection/:title/
+  tutorials:
+    output: true
+    permalink: /:collection/:title/
 
 # Reading Files
 include:
