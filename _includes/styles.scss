@@ -170,6 +170,13 @@ body {
       }
     }
   }
+
+  .row {
+    display: flex;
+    .index-content{
+      width: 100%;
+    }
+  }
 }
 
 .post-template .content {
