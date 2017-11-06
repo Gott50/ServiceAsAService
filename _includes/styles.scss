@@ -173,8 +173,10 @@ body {
 
   .row {
     display: flex;
+
+    amp-iframe,
     .index-content{
-      width: 100%;
+      width: 50%;
     }
   }
 }
