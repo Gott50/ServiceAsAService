@@ -1,6 +1,5 @@
 ---
 layout: default
-amp-iframe: true
 ---
 
 <main class="content" role="main">
@@ -19,7 +18,7 @@ amp-iframe: true
       <div class="index-content">
         {{content}}
       </div>
-
+      {% if page.amp-iframe %}
       <amp-iframe width="auto" height="918"
                   sandbox="allow-scripts allow-same-origin allow-forms"
                   layout="fixed-height"
@@ -27,6 +26,7 @@ amp-iframe: true
                   src="https://eepurl.com/c8EbXb">
         <amp-img placeholder width="600" height="300" layout="responsive" src="/assets/images/logo.jpg"></amp-img>
       </amp-iframe>
+      {% endif%}
     </div>
 
     <div class="testimonials">
