@@ -171,9 +171,14 @@ body {
       }
     }
   }
+  .testimonials,
   .row {
     display: flex;
     flex-wrap: wrap;
+
+    .post {
+      flex: 200px;
+    }
 
     amp-iframe,
     .index-content{
