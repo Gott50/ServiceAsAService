@@ -2,6 +2,7 @@
 @import 'syntax-highlighting';
 
 $grey-color:       #828282;
+$max-width__content: 700px;
 
 .icon {
 
@@ -62,7 +63,7 @@ body {
 .site-header {
   position: relative;
   width: 100%;
-  max-width: 700px;
+  max-width: $max-width__content;
   margin: 16px auto 0 auto;
   @include box-sizing(border-box);
   @include respond-to(800) {
@@ -92,7 +93,7 @@ body {
 
 .blog-header {
   width: 100%;
-  max-width: 700px;
+  max-width: $max-width__content;
   margin: 0 auto;
   position: relative;
   padding: 0;
@@ -120,7 +121,7 @@ body {
 
 .content {
   width: 100%;
-  max-width: 700px;
+  max-width: $max-width__content;
   margin: 25px auto 0 auto;
   @include box-sizing(border-box);
   @include respond-to(800) {
@@ -182,7 +183,7 @@ body {
 }
 
 .post-template .content {
-  max-width: 700px;
+  max-width: $max-width__content;
 }
 
 .index-headline {
@@ -214,7 +215,7 @@ body {
   margin: 0 auto;
   padding: $rs * 3 0;
   width: 100%;
-  max-width: 700px;
+  max-width: $max-width__content;
   font-size: $rs / 4 * 3;
   text-align: center;
   color: #999999;
