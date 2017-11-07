@@ -171,17 +171,16 @@ body {
       }
     }
   }
-
   .row {
     display: flex;
+    flex-wrap: wrap;
 
     amp-iframe,
     .index-content{
-      width: 50%;
+      flex: $max-width__content/2;
     }
   }
 }
-
 .post-template .content {
   max-width: $max-width__content;
 }
