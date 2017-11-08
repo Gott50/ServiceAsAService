@@ -28,6 +28,7 @@ kramdown:
 
 gems:
   - jekyll-paginate
+  - jekyll-seo-tag
 
 
 # Collections
