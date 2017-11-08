@@ -29,9 +29,9 @@ layout: default
       {% endif%}
     </div>
 
-    <section class="testimonials" id="testimonials">
+    <section class="testimonials" id="testimonials" itemscope itemtype="http://schema.org/ItemList">
       {% for post in site.testimonials %}
-      <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+      <article class="post" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" role="article">
         <div class="article-item">
           <header class="post-header">
             <h2 class="post-title" itemprop="name"><a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
@@ -40,12 +40,12 @@ layout: default
             <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
           </section>
           <div class="post-meta">
-            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</time>
             <span>
-                {% if post.github %}
-                  {% include icon-github.html username=post.github %}
-                {% endif %}
-              </span>
+              {% if post.github %}
+                {% include icon-github.html username=post.github %}
+              {% endif %}
+            </span>
+            <meta itemprop="position" content="{{ forloop.index }}" />
           </div>
         </div>
       </article>
