@@ -5,8 +5,8 @@ layout: default
 <main class="content" role="main">
 
   <header class="blog-header">
-      <h1 class="blog-title">{{ site.title }}</h1>
-      <h2 class="blog-description">{{ site.description }}</h2>
+      <h1 class="blog-title" itemprop="name">{{ site.title }}</h1>
+      <h2 class="blog-description" itemprop="description">{{ site.description }}</h2>
   </header>
 
   {% if page.amp-youtube and page.videoid%}
