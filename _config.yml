@@ -48,7 +48,6 @@ include:
 # SEO-Tags
 lang: "en_US"
 author: Gott50 # default Author
-image: /assets/images/author.jpg
 webmaster_verifications:
   google:
   bing:
