@@ -44,3 +44,45 @@ collections:
 include:
   - .htaccess
   - _pages
+
+# SEO-Tags
+lang: "en_US"
+author: Gott50 # default Author
+image: /assets/images/author.jpg
+webmaster_verifications:
+  google:
+  bing:
+  alexa:
+  yandex:
+## Social Sharing
+twitter:
+  username:
+facebook:
+  app_id: # a Facebook app ID for Facebook insights
+  publisher: # a Facebook page URL or ID of the publishing entity
+  admins: # a Facebook user ID for domain insights linked to a personal account
+logo: /assets/images/logo.jpg # Open Graph/Twitter default site image
+
+# For specifying social profiles / SEO-Tags
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  name: # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+    - https://github.com/Gott50
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      image: /assets/images/author.jpg # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+      image: /assets/images/logo.jpg # path of default WebSite.image"
