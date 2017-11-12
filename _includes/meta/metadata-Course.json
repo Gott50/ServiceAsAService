@@ -1,0 +1,18 @@
+
+{
+  "@context": "http://schema.org",
+  "@type": "Course",
+  "name": "{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}",
+  "description": "{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}",
+  "provider": {
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "sameAs": "{{ site.social.links }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.logo | prepend: site.baseurl | prepend: site.url }}",
+      "width": "60",
+      "height": "60"
+    }
+  }
+}
