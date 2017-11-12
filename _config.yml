@@ -6,9 +6,6 @@ description: >
 logo: "/assets/images/logo.jpg"
 baseurl: "/OVO-AMP" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-paginate:	5 # The number of posts to show per page on your homepage
-paginate_path: /blog/page:num/
-
 name: 'Your Name'
 bio: >
   Mea suas vituperatoribus et, virtute corpora quaestio cum ut.
@@ -20,32 +17,11 @@ github_username:  jekyll
 # Google Analytics
 analytics_id:
 
-# Build settings
-markdown: kramdown
+# Plugin: Paginate
+paginate:	5 # The number of posts to show per page on your homepage
+paginate_path: /blog/page:num/
 
-kramdown:
-  parse_block_html: true
-
-plugins:
-  - jekyll-paginate
-  - jekyll-seo-tag
-
-
-# Collections
-collections:
-  testimonials:
-    output: true
-    permalink: /:collection/:title/
-  courses:
-    output: true
-    permalink: /:collection/:title/
-
-# Reading Files
-include:
-  - .htaccess
-  - _pages
-
-# SEO-Tags
+# Plugin: SEO-Tags
 lang: "en_US"
 author: Gott50 # default Author
 webmaster_verifications:
@@ -69,6 +45,15 @@ social:
   links: # An array of links to social media profiles
     - https://github.com/Gott50
 
+# Collections
+collections:
+  testimonials:
+    output: true
+    permalink: /:collection/:title/
+  courses:
+    output: true
+    permalink: /:collection/:title/
+
 # Defaults
 defaults:
   # default
@@ -83,3 +68,19 @@ defaults:
     values:
       layout: page
       meta: Course
+
+
+# Build settings
+markdown: kramdown
+kramdown:
+  parse_block_html: true
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
