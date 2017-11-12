@@ -3,7 +3,7 @@ title: OVO AMP
 email: your-email@domain.com
 description: >
   This is a Opt-in-Value-Offer Page, running on AMP
-logo: "/assets/images/logo.jpg"
+logo: /assets/images/logo.jpg # Open Graph/Twitter default site image Path
 baseurl: "/OVO-AMP" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 author: Gott50 # default Author
@@ -35,7 +35,6 @@ facebook:
   app_id: # a Facebook app ID for Facebook insights
   publisher: # a Facebook page URL or ID of the publishing entity
   admins: # a Facebook user ID for domain insights linked to a personal account
-logo: /assets/images/logo.jpg # Open Graph/Twitter default site image
 
 # For specifying social profiles / SEO-Tags
 # - https://developers.google.com/structured-data/customize/social-profiles
