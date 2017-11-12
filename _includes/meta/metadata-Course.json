@@ -7,7 +7,7 @@
   "provider": {
     "@type": "Organization",
     "name": "{{ site.title }}",
-    "sameAs": "{{ site.social.links }}",
+    "sameAs": ["{{ site.social.links | join: '", "' }}"],
     "logo": {
       "@type": "ImageObject",
       "url": "{{ site.logo | prepend: site.baseurl | prepend: site.url }}",
