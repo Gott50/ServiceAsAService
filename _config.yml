@@ -18,7 +18,7 @@ analytics_id:
 
 # Plugin: Paginate
 paginate:	5 # The number of posts to show per page on your homepage
-paginate_path: /blog/page:num/
+paginate_path: /blog/page:num/ # Path to index.html of your Blog
 
 # Plugin: SEO-Tags
 lang: "en_US"
