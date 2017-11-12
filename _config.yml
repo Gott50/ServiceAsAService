@@ -71,24 +71,14 @@ social:
 
 # Defaults
 defaults:
-  # _posts
+  # default
   - scope:
       path: ""
-      type: posts
     values:
-      layout: post
       image: /assets/images/author.jpg # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: page
-      image: /assets/images/logo.jpg # path of default WebSite.image"
   # _tutorials
   - scope:
       path: ""
       type: tutorials
     values:
       layout: page
-      image: /assets/images/author.jpg # path of default BlogPosting.image"
