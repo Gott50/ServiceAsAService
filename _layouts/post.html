@@ -13,7 +13,7 @@ layout: default
     </section>
     <footer class="post-footer">
       <section class="share">
-        <a class="icon" href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.id }}&text={{page.title | cgi_escape}}&via={{ site.twitter_username }}" target="_blank">
+        <a class="icon" href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.id }}&text={{page.title | cgi_escape}}&via={{ site.twitter.username }}" target="_blank">
           Share on
           {% include icon-twitter.html %}
         </a>
@@ -35,8 +35,8 @@ layout: default
             </span>
 
             <span>
-              {% if site.twitter_username %}
-                {% include icon-twitter.html username=site.twitter_username %}
+              {% if site.twitter.username %}
+                {% include icon-twitter.html username=site.twitter.username %}
               {% endif %}
             </span>
           </p>

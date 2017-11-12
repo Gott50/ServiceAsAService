@@ -11,7 +11,6 @@ bio: >
   Mea suas vituperatoribus et, virtute corpora quaestio cum ut.
   Ne solet nostrum complectitur pri, vis ut inani populo.
 author_image: "/assets/images/author.jpg"
-twitter_username: jekyllrb
 github_username:  jekyll
 
 # Google Analytics
@@ -30,7 +29,7 @@ webmaster_verifications:
   yandex:
 ## Social Sharing
 twitter:
-  username:
+  username: xxGott50xx
 facebook:
   app_id: # a Facebook app ID for Facebook insights
   publisher: # a Facebook page URL or ID of the publishing entity
