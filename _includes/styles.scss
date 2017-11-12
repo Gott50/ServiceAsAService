@@ -3,6 +3,7 @@
 
 $grey-color:       #828282;
 $max-width__content: 700px;
+$author_image: "{{ site.baseurl }}{{ site.author_image }}";
 
 .icon {
 
@@ -247,7 +248,7 @@ body {
     margin-bottom: 50px;
   }
   .author-image {
-    background-image: url({{ site.baseurl }}{{site.author_image}});
+    background-image: url($author_image);
     display: inline-block;
     width: 30px;
     height: 30px;
