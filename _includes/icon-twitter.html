@@ -1,3 +1,4 @@
-{% if include.username %}
-<span class="icon icon--twitter">{% include icon-twitter.svg %}</span><a href="https://twitter.com/{{ include.username }}"><span class="username">{{ include.username }}</span></a>
+<span class="icon icon--twitter">{% include icon-twitter.svg %}</span>
+{% if site.twitter.username %}
+<a href="https://twitter.com/{{ site.twitter.username }}"><span class="username">{{ site.twitter.username }}</span></a>
 {% endif %}
