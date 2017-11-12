@@ -6,7 +6,7 @@ description: >
 logo: "/assets/images/logo.jpg"
 baseurl: "/OVO-AMP" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-name: 'Your Name'
+author: Gott50 # default Author
 bio: >
   Mea suas vituperatoribus et, virtute corpora quaestio cum ut.
   Ne solet nostrum complectitur pri, vis ut inani populo.
@@ -23,7 +23,6 @@ paginate_path: /blog/page:num/
 
 # Plugin: SEO-Tags
 lang: "en_US"
-author: Gott50 # default Author
 webmaster_verifications:
   google:
   bing:
