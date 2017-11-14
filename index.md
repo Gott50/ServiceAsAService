@@ -4,7 +4,7 @@ amp-youtube: true
 videoid: lBTCB7yLs8Y
 amp-iframe: true
 fheight: 300px
-fsrc: https://alexanderhartmann.lpages.co/leadbox/1432f4373f72a2:175d5238d346dc/5721489412194304/?lp-in-iframe=1&__fromjs=1
+fsrc: https://lorempixel.com/300/300/nature
 fisrc: /assets/images/logo.jpg
 ---
 
