@@ -8,4 +8,6 @@ fsrc: https://lorempixel.com/300/300/nature
 fisrc: /assets/images/logo.jpg
 ---
 
-Content
+# Get Free Marketing training
+
+- How to setup a Opt-in Value Offer Page with AMP support
