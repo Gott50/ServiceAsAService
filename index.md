@@ -4,7 +4,7 @@ amp-youtube: true
 videoid: lBTCB7yLs8Y
 amp-iframe: true
 fheight: 300px
-fsrc: https://lorempixel.com/300/300/nature
+fsrc: https://eepurl.com/dgI0qn
 fisrc: /assets/images/logo.jpg
 ---
 
