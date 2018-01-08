@@ -8,6 +8,6 @@ fsrc: https://eepurl.com/dgI0qn
 fisrc: /assets/images/logo.jpg
 ---
 
-# Get Free Marketing training
+## Get Free Marketing training
 
 - How to setup a Opt-in Value Offer Page with AMP support
