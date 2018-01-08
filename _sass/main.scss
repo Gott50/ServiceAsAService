@@ -2,7 +2,8 @@
 @import 'syntax-highlighting';
 
 $grey-color:       #828282;
-$max-width__content: 700px;
+$max-width__content: 1100px; //28em
+$respond-to: 1100px;
 
 .icon {
 
@@ -32,7 +33,7 @@ $font-serif: Georgia,Cambria,"Times New Roman",Times,'Lora', serif;
 $font-sans: "Helvetica Neue", 'Open Sans', Arial, Helvetica, sans-serif;
 
 @mixin respond-to($breakpoint) {
-  @media only screen and (max-width: $breakpoint + px) {
+  @media only screen and (max-width: $breakpoint) {
     @content;
   }
 }
@@ -66,7 +67,7 @@ body {
   max-width: $max-width__content;
   margin: 16px auto 0 auto;
   @include box-sizing(border-box);
-  @include respond-to(800) {
+  @include respond-to($respond-to) {
     padding: 0 $rs * 1;
   }
 
@@ -124,7 +125,7 @@ body {
   max-width: $max-width__content;
   margin: 25px auto 0 auto;
   @include box-sizing(border-box);
-  @include respond-to(800) {
+  @include respond-to($respond-to) {
     padding: 0 $rs * 1;
   }
 
@@ -177,7 +178,7 @@ body {
     flex-wrap: wrap;
 
     .post {
-      flex: 200px;
+      flex: 440px;
     }
 
     amp-iframe,
@@ -402,7 +403,7 @@ body {
       float: left;
       width: 47%;
       @include box-sizing(border-box);
-      @include respond-to(800) {
+      @include respond-to($respond-to) {
         width: 100%;
         padding-bottom: $rs * 2;
       }
@@ -459,7 +460,7 @@ body {
       float: right;
       width: 47%;
       @include box-sizing(border-box);
-      @include respond-to(800) {
+      @include respond-to($respond-to) {
         width: 100%;
       }
 
