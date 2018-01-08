@@ -10,7 +10,8 @@ layout: default
   </header>
 
   {% if page.amp-youtube and page.videoid%}
-  <amp-youtube data-videoid="{{ page.videoid }}" autoplay data-param-rel=0 data-param-controls=0 data-param-showinfo=0
+  <amp-youtube data-videoid="{{ page.videoid }}" autoplay data-param-loop=1 data-param-playlist={{ page.videoid }}
+               data-param-rel=0 data-param-controls=0 data-param-showinfo=0
                layout="responsive" width="480" height="270"></amp-youtube>
   {% endif%}
 
