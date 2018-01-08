@@ -1,5 +1,6 @@
 ---
 layout: index
+navigation: false
 amp-youtube: true
 videoid: lBTCB7yLs8Y
 amp-iframe: true
