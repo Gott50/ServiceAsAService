@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: home
 navigation: false
 amp-youtube: true
 videoid: lBTCB7yLs8Y

@@ -30,9 +30,10 @@
   </script>
   {% endif %}
 
+  <!--styles: {{ include.styles }}-->
   <style amp-custom>
   {% capture include_to_scssify %}
-    {% include styles.scss %}
+    {% include styles.scss styles=include.styles %}
   {% endcapture %}
   {{ include_to_scssify | scssify }}
   </style>

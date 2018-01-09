@@ -1,2 +1,6 @@
 $author_image: "{{ site.baseurl }}{{ site.author_image }}";
+{% if include.styles %}
+@import '{{ include.styles }}';
+{% else %}
 @import 'main';
+{% endif %}
