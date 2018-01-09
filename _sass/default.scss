@@ -23,8 +23,6 @@ amp-img {
   @include clearfix;
 }
 
-$rs: 16px;
-
 $font-serif: Georgia,Cambria,"Times New Roman",Times,'Lora', serif;
 $font-sans: "Helvetica Neue", 'Open Sans', Arial, Helvetica, sans-serif;
 
@@ -44,7 +42,7 @@ main {
 }
 
 body {
-  font-size: 16/16 *1em;
+  font-size: $rs;
 
   background-color: #fff;
   font-family: $font-sans;
