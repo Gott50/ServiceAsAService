@@ -1,5 +1,6 @@
 @import 'bourbon/bourbon';
 @import 'syntax-highlighting';
+@import "fonts";
 
 .icon {
 
@@ -24,7 +25,7 @@ amp-img {
 }
 
 $font-serif: Georgia,Cambria,"Times New Roman",Times,'Lora', serif;
-$font-sans: "Helvetica Neue", 'Open Sans', Arial, Helvetica, sans-serif;
+$font-sans: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 'Open Sans', Helvetica, Arial, "Lucida Grande", sans-serif;
 
 @mixin respond-to($breakpoint) {
   @media only screen and (max-width: $breakpoint) {
@@ -46,6 +47,7 @@ body {
 
   background-color: #fff;
   font-family: $font-sans;
+  font-weight: 300;
   margin: 0;
   padding: 0;
   text-rendering: optimizeLegibility;
