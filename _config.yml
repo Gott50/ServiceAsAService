@@ -13,6 +13,9 @@ bio: >
 author_image: "/assets/images/author.jpg"
 github_username:  Gott50
 
+#Mailchimp Form URL
+fsrc: http://eepurl.com/dgI0qn
+
 # Google Analytics
 analytics_id:
 
