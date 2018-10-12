@@ -2,6 +2,6 @@
 layout: page
 ---
 
-# ServiceAsAService
+#ServiceAsAService
 
 Werde schnell und einfach zum Microsoft Silber oder Gold Partner!
