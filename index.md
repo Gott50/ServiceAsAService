@@ -2,6 +2,6 @@
 layout: page
 ---
 
-# Get Free Marketing training
+# ServiceAsAService
 
-- How to setup a Opt-in Value Offer Page with AMP support
+Werde schnell und einfach zum Microsoft Silber oder Gold Partner!
