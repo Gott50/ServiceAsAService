@@ -6,15 +6,13 @@ description: >
 logo: /assets/images/logo.jpg # Open Graph/Twitter default site image Path
 baseurl: # the subpath of your site, e.g. /blog
 url: ServiceAsAService.de # the base hostname & protocol for your site
-author: Gott50 # default Author
-bio: >
-  Mea suas vituperatoribus et, virtute corpora quaestio cum ut.
-  Ne solet nostrum complectitur pri, vis ut inani populo.
+author: ServiceAsAService GmbH # default Author
+bio:
 author_image: "/assets/images/author.jpg"
 github_username:  Gott50
 
 #Mailchimp Form URL
-fsrc: http://eepurl.com/dgI0qn
+fsrc:
 
 # Google Analytics
 analytics_id:
@@ -26,7 +24,7 @@ permalink: /blog/:categories/:title/
 timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugin: SEO-Tags
-lang: "en_US"
+lang: "de_DE"
 webmaster_verifications:
   google:
   bing:
@@ -34,7 +32,7 @@ webmaster_verifications:
   yandex:
 ## Social Sharing
 twitter:
-  username: xxGott50xx
+  username:
 facebook:
   app_id: # a Facebook app ID for Facebook insights
   publisher: # a Facebook page URL or ID of the publishing entity
@@ -45,8 +43,6 @@ facebook:
 social:
   name: # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - https://github.com/Gott50
-    - https://twitter.com/xxGott50xx
 
 # Collections
 collections:
