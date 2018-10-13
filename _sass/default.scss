@@ -124,6 +124,7 @@ body {
   width: 100%;
   max-width: $max-width__content;
   margin: 25px auto 0 auto;
+  padding: 0 $padding__content;
   @include box-sizing(border-box);
   @include respond-to($respond-to) {
     padding: 0 $rs * 1;
