@@ -1,7 +1,7 @@
 ---
 layout: page
 navigation: False
-title: ServiceAsAService
+title: Service as a Service
 ---
 
 Werde schnell und einfach zum Microsoft Silber oder Gold Partner!
