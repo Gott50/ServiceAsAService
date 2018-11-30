@@ -6,4 +6,10 @@ permalink: /impressum/
 ---
 
 
-Ganz viel gesetzes TEXT
+| Service As A Service GmbH | Geschäftsführung:       | Handelsregister:   |
+| :------------------------ | :---------------------: | ------------------:|
+| Vimystr. 2a               | Timo Alexander Morawitz | München HRB 244733 |
+| 85345 Freising            |                         |                    |
+
+
+E-Mail: [info@S-a-a-S.de](info@S-a-a-S.de)

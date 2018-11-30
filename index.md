@@ -4,5 +4,4 @@ navigation: False
 title: Service as a Service
 ---
 
-Werde schnell und einfach zum Microsoft Silber oder Gold Partner!
-
+Hilfreiche Dienstleistungen für alle Microsoft Partner und diejenigen, die es werden wollen!
