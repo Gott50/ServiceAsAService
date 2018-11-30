@@ -12,4 +12,4 @@ permalink: /impressum/
 | 85345 Freising            |                         |                    |
 
 
-E-Mail: [info@S-a-a-S.de](info@S-a-a-S.de)
+E-Mail: [info@S-a-a-S.de](mailto:info@S-a-a-S.de)
